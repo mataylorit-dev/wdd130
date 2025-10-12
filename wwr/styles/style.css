@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 0; text-align: center;
     background-color: #fcfbfb;
 }
 
@@ -68,7 +68,7 @@ nav a:hover {
 
 .book:hover,
 .join:hover {
-    background-color: rgb(87, 87, 145);
+    background-color: rgb(97, 144, 128);
     color: #d9c2a3;
 }
 
