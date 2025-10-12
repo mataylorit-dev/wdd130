@@ -1,14 +1,15 @@
-body { max-width: 1600px;
-    margin: 0 auto;
+body {
+    margin: 0;
     background-color: #fcfbfb;
 }
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 
 h4 {
-    color: lab(from color lightness channel_a channel_b alpha)
+    color: #333333;
 }
 
 /* ---------- Header ---------- */
@@ -17,14 +18,18 @@ header {
     background-color: rgba(20, 30, 13, .7);
 }
 
-nav a {
-    text-align: center; margin: 0 auto
-    color: #fcfbfb;
-    text-decoration: none;
+nav {
+    text-align: center;
 }
 
-nav a:hover { 
-    text-align: center;
+nav a {
+    color: #fcfbfb;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+nav a:hover {
     background-color: black;
     color: #d9c2a3;
 }
@@ -32,19 +37,21 @@ nav a:hover {
 /* ---------- Hero ---------- */
 
 #hero-img {
-    width: 100%; text-align center; margin: 0 auto;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
-#hero-msg h1, #hero-msg h4 {
+#hero-msg h1,
+#hero-msg h4 {
     text-align: center;
 }
 
-#.button-box {
+.button-box {
     text-align: center;
 }
 
-
-#.book,
+.book,
 .join {
     background-color: #396E94;
     color: white;
@@ -54,40 +61,28 @@ nav a:hover {
 .book,
 .join {
     text-align: center;
-    color: #fcfbfb;
     text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 1em;
 }
 
 .book:hover,
 .join:hover {
-    background-color: blue;
+    background-color: rgb(87, 87, 145);
+    color: #d9c2a3;
 }
 
 #background {
     height: 725px;
-    background-color: #396E94;
+    background-color: #7ab6e0;
 }
 
 .msg {
     background-color: rgba(57, 110, 148, .7);
 }
 
-footer {
-    background-color: #396E94;
-}
-
 .home-title {
-    color: darkblue
-}
-
-.book,
-.join {
-    color: white; background-color: #396E94;
-}
-
-.book:hover,
-.join:hover {
-    color: #d9c2a3;
+    color: darkblue;
 }
 
 .msg h2 {
@@ -101,25 +96,21 @@ footer {
 /*  -------- Footer ---------- */
 
 footer {
-    color: bisque; background-color: aqua;
+    color: rgb(48, 43, 63);
+    background-color: rgb(185, 182, 195);
 }
 
 footer a {
-    color: honeydew; background-color: darkturquoise;
+    color: honeydew; background-color: rgb(139, 165, 244);
 }
 
 footer a:hover {
-    background-color: lightblue;
-}
-
-footer a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
+    background-color: rgb(103, 88, 131);
+    text-decoration: underline;
 }
 
 footer p {
-    background-color: darkmagenta
+    background-color: rgb(59, 59, 138);
     font-size: 1.2em;
 }
 
