@@ -23,7 +23,7 @@ nav {
 }
 
 nav a {
-    color: #fcfbfb;
+    color: #8f8989;
     text-decoration: none;
     margin: 0 10px;
     display: inline-block;
@@ -31,7 +31,7 @@ nav a {
 
 nav a:hover {
     background-color: black;
-    color: #d9c2a3;
+    color: #a3aed9;
 }
 
 /* ---------- Hero ---------- */
@@ -68,7 +68,7 @@ nav a:hover {
 .book:hover,
 .join:hover {
     background-color: rgb(97, 144, 128);
-    color: #d9c2a3;
+    color: #6d6890;
 }
 
 #background {
@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 .home-title {
-    color: darkblue;
+    color: rgb(175, 227, 191);
 }
 
 .msg h2 {
@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .msg p {
-   background-color: beige;
+   background-color: rgb(74, 136, 218);
 }
 
 /*  -------- Footer ---------- */
@@ -100,7 +100,7 @@ footer {
 }
 
 footer a {
-    color: honeydew; background-color: rgb(139, 165, 244);
+    color: honeydew; background-color: rgb(128, 140, 177);
 }
 
 footer a:hover {
@@ -109,7 +109,7 @@ footer a:hover {
 }
 
 footer p {
-    background-color: rgb(59, 59, 138);
+    background-color: rgb(141, 141, 194);
     font-size: 1.2em;
 }
 
