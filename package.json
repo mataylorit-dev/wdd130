@@ -1,0 +1,32 @@
+{
+  "name": "wdd130",
+  "description": "Intro to web projects",
+  "homepage": "https://github.com/mataylorit-dev/wdd130#readme",
+  "bugs": {
+    "url": "https://github.com/mataylorit-dev/wdd130/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mataylorit-dev/wdd130.git"
+  },
+  "author": "Mark A. Taylor",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.{html,css,js}": "npx eslint --fix"
+  },
+  "devDependencies": {
+    "@eslint/css": "^0.13.0",
+    "@html-eslint/eslint-plugin": "^0.47.0",
+    "@html-eslint/parser": "^0.47.0",
+    "eslint": "^9.38.0",
+    "globals": "^16.4.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.4",
+    "stylelint": "^16.25.0",
+    "stylelint-config-standard": "^39.0.1"
+  }
+}

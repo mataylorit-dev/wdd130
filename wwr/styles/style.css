@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
 body {
     margin: 0; text-align: center;
     background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;      
 }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
+}
+
+#logo_link { padding-top: 35px;
 }
 
 h4 {
@@ -25,8 +36,10 @@ nav {
 nav a {
     color: #8f8989;
     text-decoration: none;
+    text-align: center;
+    padding: 35px;
     margin: 0 10px;
-    display: inline-block;
+    
 }
 
 nav a:hover {
@@ -53,16 +66,32 @@ nav a:hover {
 
 .book,
 .join {
+    padding: 15px 30px;
     background-color: #396E94;
     color: white;
 }
 
+.rivers-card,.camping-card,.rapids-card {
+    margin: 200px 0;    
+}
 
 .book,
 .join {
     text-align: center;
     text-decoration: none;
     display: inline-block;
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+    margin-top: 50px;
+    border-radius: 5px
+}
+
+.card-img {
+    border: 10px solid #2c292f;
+}
+
+main section img { 
+    box-sizing: border-box;
 }
 
 .book:hover,
@@ -77,11 +106,19 @@ nav a:hover {
 }
 
 .msg {
+    padding: 35px;
     background-color: rgba(57, 110, 148, .7);
 }
 
 .home-title {
     color: rgb(175, 227, 191);
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.msg h2 {
+    color: red;
 }
 
 .msg h2 {
@@ -89,18 +126,27 @@ nav a:hover {
 }
 
 .msg p {
+    padding-bottom: 15px;
+    font-family: 'Rock Salt', 'Times New Roman', serif;
+    font-size:2em;
    background-color: rgb(74, 136, 218);
 }
 
 /*  -------- Footer ---------- */
 
 footer {
+    padding:25px 50px;
+    margin-top: 50px;
     color: rgb(48, 43, 63);
     background-color: rgb(185, 182, 195);
 }
 
 footer a {
     color: honeydew; background-color: rgb(128, 140, 177);
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 footer a:hover {
@@ -117,5 +163,7 @@ footer p a:hover {
     text-decoration: underline;
 }
 
-.icon{width: 80px;
+.icon{
+    padding-top: 10px;
+    width: 80px;
 }
