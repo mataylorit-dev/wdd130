@@ -52,6 +52,13 @@ nav a:hover {
 
 /* ---------- Hero ---------- */
 
+.home-title {
+  color: rgb(175 227 191);
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
+}
+
 #hero-img {
   width: 100%;
   display: block;
@@ -81,6 +88,8 @@ nav a:hover {
   border-radius: 5px;
 }
 
+/* ---------- Cards ---------- */
+
 .rivers-card,
 .camping-card,
 .rapids-card {
@@ -106,16 +115,13 @@ main section img {
   background-color: #7ab6e0;
 }
 
+.mountains {
+  text-align: left;
+}
+
 .msg {
   padding: 35px;
   background-color: rgb(57 110 148 / 70%);
-}
-
-.home-title {
-  color: rgb(175 227 191);
-  font-family: "Rock Salt", "Bradley Hand", sans-serif;
-  font-size: 2em;
-  margin-top: 10px;
 }
 
 .msg h2 {
@@ -129,10 +135,6 @@ main section img {
   background-color: rgb(74 136 218);
 }
 
-.mountains {
-  text-align: left;
-}
-
 /*  -------- Footer ---------- */
 
 footer {
@@ -144,26 +146,23 @@ footer {
 
 footer a {
   color: honeydew;
-  background-color: rgb(128 140 177);
+  text-decoration: none;
 }
 
 footer .social img {
   padding-top: 15px;
 }
 
-footer a:hover {
-  background-color: rgb(103 88 131);
-  text-decoration: underline;
-}
-
 footer p {
-  background-color: rgb(141 141 194);
+  color: honeydew;
   font-size: 1.2em;
 }
 
 footer p a:hover {
   text-decoration: underline;
 }
+
+/*  -------- helpers ---------- */
 
 .icon {
   padding-top: 10px;
