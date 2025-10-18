@@ -1,169 +1,171 @@
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
+
 body {
-    margin: 0; text-align: center;
-    background-color: #fcfbfb;
-    font-family: Raleway, Arial, sans-serif;
-    font-size: 22px;
-    margin: 0;
-    padding: 0;
+  text-align: center;
+  background-color: #fcfbfb;
+  font-family: Raleway, Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
+
 h2 {
-    margin: 0;      
+  margin: 0;
 }
 
 #content {
-    max-width: 1600px;
-    margin: 0 auto;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
-#logo_link { padding-top: 35px;
+/* stylelint-disable-next-line selector-id-pattern */
+#logo_link {
+  padding-top: 35px;
 }
 
 h4 {
-    color: #333333;
+  color: #333;
 }
 
 /* ---------- Header ---------- */
 
 header {
-    background-color: rgba(20, 30, 13, .7);
+  background-color: rgb(20 30 13 / 70%);
 }
 
 nav {
-    text-align: center;
+  text-align: center;
 }
 
 nav a {
-    color: #8f8989;
-    text-decoration: none;
-    text-align: center;
-    padding: 35px;
-    margin: 0 10px;
-    
+  color: #8f8989;
+  text-decoration: none;
+  text-align: center;
+  padding: 35px;
+  margin: 0 10px;
 }
 
 nav a:hover {
-    background-color: black;
-    color: #a3aed9;
+  background-color: black;
+  color: #a3aed9;
 }
 
 /* ---------- Hero ---------- */
 
 #hero-img {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 
 #hero-msg h1,
 #hero-msg h4 {
-    text-align: center;
+  text-align: center;
 }
 
 .button-box {
-    text-align: center;
+  text-align: center;
 }
 
 .book,
 .join {
-    padding: 15px 30px;
-    background-color: #396E94;
-    color: white;
+  padding: 15px 30px;
+  background-color: #396e94;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
-.rivers-card,.camping-card,.rapids-card {
-    margin: 200px 0;    
-}
-
-.book,
-.join {
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-family: 'Arial', sans-serif;
-    font-size: 18px;
-    margin-top: 50px;
-    border-radius: 5px
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
 }
 
 .card-img {
-    border: 10px solid #2c292f;
+  border: 10px solid #2c292f;
 }
 
-main section img { 
-    box-sizing: border-box;
+main section img {
+  box-sizing: border-box;
 }
 
 .book:hover,
 .join:hover {
-    background-color: rgb(97, 144, 128);
-    color: #6d6890;
+  background-color: rgb(97 144 128);
+  color: #6d6890;
 }
 
 #background {
-    height: 725px;
-    background-color: #7ab6e0;
+  height: 725px;
+  background-color: #7ab6e0;
 }
 
 .msg {
-    padding: 35px;
-    background-color: rgba(57, 110, 148, .7);
+  padding: 35px;
+  background-color: rgb(57 110 148 / 70%);
 }
 
 .home-title {
-    color: rgb(175, 227, 191);
-    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
+  color: rgb(175 227 191);
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 2em;
+  margin-top: 10px;
 }
 
 .msg h2 {
-    color: red;
-}
-
-.msg h2 {
-    color: white;
+  color: white;
 }
 
 .msg p {
-    padding-bottom: 15px;
-    font-family: 'Rock Salt', 'Times New Roman', serif;
-    font-size:2em;
-   background-color: rgb(74, 136, 218);
+  padding-bottom: 15px;
+  font-family: "Rock Salt", "Times New Roman", serif;
+  font-size: 2em;
+  background-color: rgb(74 136 218);
+}
+
+.mountains {
+  text-align: left;
 }
 
 /*  -------- Footer ---------- */
 
 footer {
-    padding:25px 50px;
-    margin-top: 50px;
-    color: rgb(48, 43, 63);
-    background-color: rgb(185, 182, 195);
+  padding: 25px 50px;
+  margin-top: 50px;
+  color: rgb(48 43 63);
+  background-color: rgb(185 182 195);
 }
 
 footer a {
-    color: honeydew; background-color: rgb(128, 140, 177);
+  color: honeydew;
+  background-color: rgb(128 140 177);
 }
 
 footer .social img {
-    padding-top: 15px;
+  padding-top: 15px;
 }
 
 footer a:hover {
-    background-color: rgb(103, 88, 131);
-    text-decoration: underline;
+  background-color: rgb(103 88 131);
+  text-decoration: underline;
 }
 
 footer p {
-    background-color: rgb(141, 141, 194);
-    font-size: 1.2em;
+  background-color: rgb(141 141 194);
+  font-size: 1.2em;
 }
 
 footer p a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-.icon{
-    padding-top: 10px;
-    width: 80px;
+.icon {
+  padding-top: 10px;
+  width: 80px;
 }
