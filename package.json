@@ -17,7 +17,7 @@
   },
   "lint-staged": {
     "*.{html,js}": "npx eslint --fix",
-    "*.{css}": "prettier --write"
+    "*.css": "prettier --write"
   },
   "devDependencies": {
     "@eslint/css": "^0.13.0",
