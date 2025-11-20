@@ -177,3 +177,42 @@ nav a:hover {
   border-top: 1px solid;
   border-right: 1px solid;
 }
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: start;
+}
+
+.service-row {
+  display: contents;
+}
+
+.service-content {
+  text-align: left;
+  padding: 1em;
+  background-color: var(--accent1-color);
+  border-radius: 8px;
+  display: block;
+}
+
+.service-content h2 {
+  text-align: left;
+}
+
+.service-content p {
+  text-align: left;
+  color: var(--paragraph-color-on-white);
+}
+
+.service-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-image img {
+  width: 100%;
+  height: auto;
+}
