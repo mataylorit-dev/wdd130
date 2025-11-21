@@ -68,6 +68,11 @@ header > h2 {
   color: var(--headline-color-on-color);
 }
 
+.logo img {
+  max-width: 200px;
+  height: auto;
+}
+
 p {
   font-family: var(--paragraph-font);
   color: var(--paragraph-color-on-white);
@@ -240,4 +245,11 @@ footer {
   width: 40px;
   height: 40px;
   object-fit: contain;
+}
+
+/* Page 3 app images - make them smaller */
+.page3-app-image img {
+  width: 50%;
+  max-width: 300px;
+  height: auto;
 }
