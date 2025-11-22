@@ -262,7 +262,6 @@ footer {
   object-fit: contain;
 }
 
-/* Page 3 app images - make them smaller */
 .page3-app-image img {
   width: 50%;
   max-width: 300px;
